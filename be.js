@@ -1,10 +1,49 @@
-function myFunction(){
+function addition(){
 
-    let x = document.getElementById(firstInt).value;
+    const x = document.getElementById("firstInt");
+    const xvalue = parseInt(x.value);
 
-    document.getElementById("output").innerHTML = x;
+    const z = document.getElementById("secondInt");
+    const zvalue = parseInt(z.value);
 
 
-
-
+    document.getElementById("output").innerHTML = (xvalue + zvalue);
 }
+
+
+function multiplication(){
+
+    const x = document.getElementById("firstInt");
+    const xvalue = parseInt(x.value);
+
+    const z = document.getElementById("secondInt");
+    const zvalue = parseInt(z.value);
+
+
+    document.getElementById("output").innerHTML = (xvalue * zvalue) ;
+}
+
+function division(){
+
+    const x = document.getElementById("firstInt");
+    const xvalue = parseInt(x.value);
+
+    const z = document.getElementById("secondInt");
+    const zvalue = parseInt(z.value);
+
+
+    document.getElementById("output").innerHTML = (xvalue / zvalue) ;
+}
+
+function subtraction(){
+
+    const x = document.getElementById("firstInt");
+    const xvalue = parseInt(x.value);
+
+    const z = document.getElementById("secondInt");
+    const zvalue = parseInt(z.value);
+
+
+    document.getElementById("output").innerHTML = (xvalue - zvalue) ;
+}
+
